@@ -14,12 +14,13 @@
     "@types/bs58": "^4.0.1",
     "@types/node": "^14.0.19",
     "@types/tiny-secp256k1": "^1.0.0",
-    "typescript": "^3.9.6",
+    "typescript": "^3.9.6"
   },
   "dependencies": {
     "bs58": "^4.0.1",
     "did-resolver": "^2.0.1",
     "tiny-secp256k1": "^1.1.5",
     "tweetnacl": "^1.0.3",
+    "tweetnacl-sealedbox-js": "^1.2.0"
   }
 }
