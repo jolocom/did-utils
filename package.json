@@ -11,9 +11,12 @@
     "build": "tsc -p ."
   },
   "devDependencies": {
+    "@types/bs58": "^4.0.1",
     "@types/node": "^14.0.19",
     "typescript": "^3.9.6",
   },
   "dependencies": {
+    "bs58": "^4.0.1",
+    "did-resolver": "^2.0.1",
   }
 }
