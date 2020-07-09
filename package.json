@@ -1,14 +1,16 @@
 {
-  "name": "did-utils",
-  "version": "0.1.0",
+  "name": "@jolocom/did-utils",
+  "version": "0.1.1",
   "description": "A collection of functions on resolvable DIDs",
   "main": "js/index.js",
+  "files": ["js/"],
   "repository": "https://github.com/jolocom/did-utils",
   "author": "Jolocom GmbH",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "@types/bs58": "^4.0.1",
